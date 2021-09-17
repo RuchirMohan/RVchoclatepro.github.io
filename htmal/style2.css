@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+ul li{
+    font-size:150px;
+    font-style: normal;
+    display:inline;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:20px;
+    text-align:center;
+    letter-spacing:2px;
+    word-spacing: 3px;
+}
+.nav{
+        padding-right: 60px;
+        padding-top: 40px;
+        text-align:right;
+        margin:4px 4px;
+        color:antiquewhite;
+        position:absolute;
+        position: static;
+        text-decoration: none;
+        text-transform: uppercase;
+    
+        
+}
+.mainsection{
+    border: 2px solid black;
+    width:50%;
+    height:100em;
+    margin-left:auto;
+    background-color: rgb(177, 240, 164);
+    margin-right: 80em;
+    margin-top:8em ;
+    align-content: center;
+}
+.box-part h1{
+    font-size: 8em;
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+.box-part p{
+    font-size: 4em;
+    padding: 1em;
+ 
+}
+.line ul li{
+    font-size: 60px;
+    text-transform: lowercase;
+    display: block;
+}
+.line ul li::before{
+content:'\2713';
+color:blue;
+font-weight: bold;
+}
+.line .column1{
+    
+    text-align: center;
+    height:20em;
+    width:49%;
+    float: left;
+}
+.line .column2{
+    
+    height:20em;
+    width:49%;
+    float:right;
+    text-align: center;
+    
+}
+.b1 {
+    margin-top: 2em;
+    text-align: center;
+    height:20em;
+    width:32%;
+    float: left;
+}
+
+.b2 {
+    
+    text-align: center;
+    height:20em;
+    width:32%;
+    float:right;
+    margin-top:2em;
+}
+
+.b3 {
+    margin-top:2em;
+    text-align: center;
+    height:20em;
+    width: 32%;
+    float:left;
+}
+.count h2{
+font-size: 8em;
+color:blue;
+
+}
+
+.count p{
+    font-size:6em ;
+    font-weight: 700;
+}
+
+
+.Banner p{
+    font-size: 4em;
+    float:left;
+    border:3px solid green;
+    height:4em;
+    padding-top: 0.3em;
+    
+    width: 100%;
+    margin:0 0.4px;
+    background-color: salmon;
+}
+.Banner a{
+float:right;
+padding-right: 2em;
+font-size: 2em;
+color: blue;
+
+
+}

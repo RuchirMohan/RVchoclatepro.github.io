@@ -1,0 +1,24 @@
+*{
+    
+    size:20%;
+    padding:20px;
+    margin:5px;
+    font-size:70px;
+    box-sizing: border-box;
+}
+div {
+    background-color:rgb(224, 222, 71);
+    margin-right: 3em;
+    font-size:60px;
+    width: 100%;
+}
+
+h2{
+font-size: 130px;
+border-bottom:5px inset black;
+}
+h1{
+font-size:150px;
+color:rgb(102, 14, 202);
+}
+

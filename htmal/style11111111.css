@@ -1,0 +1,56 @@
+.boxes{
+    border:2px solid brown;
+    display:flex;
+    height: 300px;
+    flex-flow:row wrap ;
+    
+    /*justify-content: space-around;*/
+    /*align-content: flex-start;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+      /*flex-wrap: nowrap;*/
+    justify-content:space-around;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+    
+  
+     
+
+}
+.box1{
+    border: 2px solid green;
+    align-self:flex-end;
+    background-color: burlywood;
+    order:4;
+    /*flex-basis: 1000px;*/
+    flex-grow: 4;
+}
+.box2{
+    border: 2px solid green;
+    align-self:center;
+    background-color: rgb(243, 50, 82);
+    order:2;
+    flex-grow: 4;
+    
+}
+.box3{
+    border: 2px solid green;
+    align-self: flex-start;
+    background-color: rgb(233, 91, 197);
+    order:0;
+    flex-grow:4;
+}
+.box4{
+    border: 2px solid green;
+    align-self: center;
+    background-color: rgb(99, 221, 164);
+    order: 1;
+    flex-grow: 4;
+}
+.boxes h2{
+    color:black;
+    text-align:center;
+
+}

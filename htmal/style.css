@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+
+
+header{
+    font-family: 'Lato', sans-serif;
+    background:url(./choclate4.jpg);
+    background-size:100%;
+    width: 100%;
+    height:150em;
+    background-color:rgb(94, 65, 12) ;
+    font-display:inline;
+}
+
+
+
+ul li{
+font-size:150px;
+font-style: normal;
+display:inline;
+text-decoration: none;
+text-transform: uppercase;
+padding:20px;
+margin:auto; 
+text-align:center;
+letter-spacing:2px;
+word-spacing: 3px;
+
+}
+.nav{
+    padding-right: 60px;
+    padding-top: 40px;
+    text-align:right;
+    margin:4px 4px;
+    color:antiquewhite;
+    width: 100%;
+    position:absolute;
+    position: static;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+}
+.brand{
+color:whitesmoke;
+font-size:120px;
+padding: 0px 70px;
+}
+div h2{
+font-size: 120px;
+text-align:center;
+text-transform: uppercase;
+color:aliceblue;
+
+}
+.main{
+    font-size: 70px;
+    text-align:center;
+    padding-right:70px;
+    color:aliceblue;
+    width: 100%;
+    padding:1em;
+
+    
+}
+.primarybutton{
+    font-weight: 500;
+    border-radius: 100px;
+    border:4px inset black;
+    font-size: 100px;
+    margin:10px 5px;
+    padding:0.5em 2em;
+    background-color:white;
+    color:red ;
+
+}
+div img{
+    shape-image-threshold: 30px;
+}
+li :link{
+color:white;
+}
+li :visited{
+color:tomato;
+}
+li :hover{
+color:green;
+}
+li :active{
+color:black;
+}
+.container{
+max-width:100%;
+width:100%;
+display:inline;
+
+}
+
+.container2{
+    background-color: aliceblue;
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.row {
+    
+    margin-left:70em;
+    margin-top: 10em;
+    
+
+}
+.row .row1{
+    box-shadow: 10em;
+background:aquamarine;
+height:60em;
+width:180em;
+margin-left: 200px;
+margin-bottom: 10em;
+margin-top: 10em;
+
+
+}
+.row .row2{
+    
+    background: aquamarine;
+    height:60em;
+    width: 180em;
+    margin-left: 200px;
+margin-bottom: 10em;
+    
+}
+.row1 .img1, .row2 .text2{
+
+float:left;
+width:49.5%;
+height: 100%;
+
+}
+
+.row2 .img2, .row1 .text1{
+    
+    float:right;
+    width:49.5%;
+    height: 100%;
+    
+}
+.row .row1 a{
+    border: 2px solid rgb(11, 150, 243);
+    color: rgb(11, 150, 243);
+    display: block;
+    width:3em;
+    border-radius: 10em;
+    font-size: 90px;
+    padding-left: 1em;
+}
+.row .row2 a{
+    border: 2px solid rgb(11, 150, 246);
+    color:rgb(11, 150, 243);
+    display: block;
+    width:3em;
+    border-radius: 10em;
+    font-size: 90px;
+    padding-left: 1em;
+}
+.row h3{
+    font-size: 140px;
+    padding: 30px;
+}
+.row p{
+    font-size: 80px;
+    padding: 30px;
+}
+.container3{
+    background-color: gainsboro;
+    
+}
+
+.box{
+    
+    margin-top: 15em;
+    margin-left: 50em;
+    width:250em;
+    height:1200px;
+    
+
+
+}
+.box h2{
+    font-size: 8em;
+    color: black;
+}
+.box p{
+    font-size: 5em;
+    padding-top: 100px;
+    text-align: center;
+}
+.roasted{
+    border:2px solid green;
+    background-color: darkgrey;
+    width:31%; 
+    float: left;
+    padding-left:1em;
+    margin-top: 7em;
+    margin-left:none;
+
+    height:80%;
+}
+
+.caramel{
+    border:2px solid green;
+    background-color:darkorange;
+    width:31%;
+    float: left;
+    padding-left:2em;
+    margin-top: 7em;
+    height: 80%;
+}
+
+.cookies{
+    border:2px solid green ;
+    background-color: rgb(204, 19, 195);
+    width:31%;
+    float: left;
+    padding-left:2em;
+    margin-top: 7em;
+    margin-right:8em;
+    height:80%;
+}
+
+div i{
+    color:white;
+    padding-left: 7em;
+}
+footer{
+    width: 100%;
+    height: 30em;
+    margin-top: 3em;
+    background-color: darkslategray;
+}
+.facebook{
+    color: black;
+    padding-left: 22em;
+    padding-right: 1em;
+    padding-top: 2em;
+    font-display: inline-block;   
+}
+.instagram{
+    color: black;
+    padding-right: 1em;
+    padding-top: 2em;
+    font-display: inline-block;   
+}
+footer p{
+    font-size: 5em;
+    text-align: center;
+}
+
+@media (max-width:500px){
+
+    html{
+        font-size: medium;
+    }
+    .roasted{
+        float: none;
+    }
+}
